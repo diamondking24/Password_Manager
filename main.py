@@ -23,7 +23,7 @@ class Atlas(App):
 
     
 
-    CSS_PATH = "styles.tcss" #Path to the CSS file
+    CSS_PATH = "styles.css" #Path to the CSS file
     BINDINGS = [("d", "toggle_dark", "Toggle dark mode")]
     
     def compose(self) -> ComposeResult:
